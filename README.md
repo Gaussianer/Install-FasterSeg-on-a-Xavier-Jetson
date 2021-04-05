@@ -46,7 +46,8 @@ setuptools \
         pandas==0.22.0 \
         Pillow==6.2.0 \
         python-dateutil==2.8.1
-
+```
+```
 pip3 --no-cache-dir install --upgrade \
 setuptools \
         scipy==1.1.0 \
@@ -56,7 +57,8 @@ setuptools \
         Cython \
         opencv-python==3.4.5.20 \
         matplotlib==3.0.1
-        
+```
+```
 pip3 --no-cache-dir install --upgrade \
 setuptools \
         libatlas-base-dev \
@@ -68,7 +70,8 @@ setuptools \
         libprotobuf-dev \
         libsnappy-dev \
         protobuf-compiler
-        
+```
+```
 pip3 --no-cache-dir install --upgrade \
 setuptools \
         libatlas-base-dev \
