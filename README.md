@@ -135,8 +135,9 @@ python -m pip --no-cache-dir install \
 cd /home/ && git clone https://github.com/Gaussianer/FasterSeg.git
 ```
 ### Let's validate the installation using the latency test.
-To run the latency test on the Jetson Xavier, another import into [run_latency.py](https://github.com/Gaussianer/FasterSeg/blob/ea0300731a968d7356d397c34d5436601a5ab0f1/latency/run_latency.py#L7) is required. Add the following import for this: `import pycuda.autoinit` 
+To run the latency test on the Jetson Xavier, another import into [run_latency.py](https://github.com/Gaussianer/Install-FasterSeg-on-a-Xavier-Jetson/blob/89160e1166f34468c1753d2e1de529ecadb4afba/run_latency.py#L7) is required. Add the following import for this: `import pycuda.autoinit` 
 
+After that, the latency test should work on the GPU of the Jetson Xavier. To do this, execute the following command: 
 ```bash
 cd FasterSeg/latency
 CUDA_VISIBLE_DEVICES=0 python3 run_latency.py
