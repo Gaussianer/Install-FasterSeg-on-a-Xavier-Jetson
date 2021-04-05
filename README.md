@@ -134,3 +134,10 @@ python -m pip --no-cache-dir install \
 ```bash
 cd /home/ && git clone https://github.com/Gaussianer/FasterSeg.git
 ```
+### Let's validate the installation using the latency test.
+
+```bash
+cd FasterSeg/latency
+CUDA_VISIBLE_DEVICES=0 python3 run_latency.py
+```
+
